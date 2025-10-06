@@ -1,0 +1,58 @@
+/*styles for my resume*/
+
+/*font for page content*/
+h1, p, ul, li {
+     font-family: "Open Sans", sans-serif, Arial;
+    font-size: 1em;
+    color: #444;
+}
+
+/*title tag*/
+h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #33485e;
+    width: 900px;
+    margin: 0 auto;
+}
+
+/*current job title under contact information*/
+#title {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: #33485e;
+    
+}
+
+/*section titles with blue background and white text*/
+.section-titles {
+    font-size: 1.5em;
+    text-transform:uppercase;
+    background-color: #33485e;
+    color: white;
+    font-weight: 400;
+}
+
+/*job titles below section titles*/
+.job-titles {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+/*job organization underneath job title*/
+.job-organization {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+/*dates under experience section*/
+.job-dates {
+    font-weight: 700;
+    font-size: 1em;
+}
+
+/*bulleted lists in contact info, skills, and education section*/
+.lists {
+    font-size: 1em;
+}
