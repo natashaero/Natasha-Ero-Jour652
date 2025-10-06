@@ -1,0 +1,133 @@
+#container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 50px; 
+}
+
+
+/*styles for my resume*/
+
+/*font for page content*/
+
+#name {
+     font-family: "Open Sans", sans-serif, Arial;
+    font-size: 1em;
+    color: #444;
+    border-bottom: 1px solid #33485e;
+    width: 60%;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+/*title tag*/
+#name {
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #33485e;
+    width: 900px;
+    margin: 0 auto;
+}
+
+/*current job title under contact information*/
+#title {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: #33485e;
+    
+}
+
+/*section titles with blue background and white text*/
+.sectionheader {
+    font-size: 1.5em;
+    text-transform:uppercase;
+    background-color: #33485e;
+    color: white;
+    font-weight: 400;
+    margin: 20px 0 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 0;
+    width: 100%;
+    min-width: 300px;
+}
+
+/*job titles below section titles*/
+.jobtitle {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+/*job organization underneath job title*/
+.organization {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+/*dates under experience section*/
+.date {
+    font-weight: 700;
+    font-size: 1em;
+    margin: 2px 0 0 0;
+}
+
+/*bulleted lists in contact info, skills, and education section*/
+.menu li {
+    font-size: 1em;
+}
+
+.description {
+    margin: 10px 0;
+}
+
+.menu.lists {
+    margin: 10px 0 20px;
+    padding: 0;
+    width: 900px;
+}
+
+.menu li{
+    padding: 0 20px;
+}
+
+#degrees {
+    margin: 5px 0;
+}
+
+#do{
+    margin: 5px 0;
+}
+
+#title{
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+#headshot{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: solid 5px #33485e;
+}
+
+#headshot-container {
+    width: 900;
+    margin: 0 auto;
+    text-align: center;
+}
+
+a:link {
+    font-weight: 60;
+    color: #0bc5f4;
+}
+
+a:hover{
+    color: #33485e;
+}
+
+a:visited{
+    color: #6e38c7;
+}
