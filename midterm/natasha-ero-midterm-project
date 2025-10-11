@@ -1,0 +1,122 @@
+
+JOUR652: Midterm
+Part 1: Q&A
+
+Directions:
+1. Use a text editor (like Notepad if you're on a PC, or TextEdit if you're on a
+Mac, or even a code editor like Brackets) to complete this assignment.
+2. This assignment is open book.
+3. Answer every question. There are 15 questions total.
+4. If you don't understand what I'm asking for on a question, please ask me.
+5. When you are done, please save your document as “your-name-midterm-pt1.txt” and
+submit on ELMS as a file upload. (Do not upload this to your repo.)
+***********************************
+
+Questions
+
+1. In the sentence below, put in the necessary HTML code that would allow users to
+click on the word Google and open Google's homepage in a new browser:
+
+Google is the best search engine in the world.
+
+ <a href="https://www.google.com" target="_blank">Google</a>
+
+
+2. Describe the purpose of a div tag.
+
+The purpose of a div tag is to group together HTML elements to style with CSS.
+
+
+3. Write out the basic structure of an HTML page in its most basic form, putting
+the basic tags in the correct position. (Note: you don't need to include the meta
+charset, viewport meta tag, or connect it to a stylesheet.)
+
+<!DOCTYPE html>
+
+<html>
+
+		<head>
+
+			<title>Title Goes Here</title>
+
+		</head>
+
+		<body>
+
+					This is a body paragraph.
+
+		</body>
+
+</html>
+
+
+4. There are two main "areas" or "sections" in the basic structure of an HTML
+page. In which area would you put a link to a stylesheet?
+
+You would link a stylesheet in the head section.
+
+
+5. In which main "area" or "section" of an HTML page would you put text, images or
+DIV tags?
+
+I would put content like text and images in the body section.
+
+
+6. In the space below, put one div tag with a class of graphicbox and a second div
+tag with an ID of boxname. (You don't need to write out CSS rules - I'm looking for
+the correct HTML syntax.)
+
+<div class=“graphicbox”>
+
+		<div id=“boxname”></div>
+
+</div>
+
+7. In the space below, put ONE div tag with an ID of apples and a class of fruit.
+(You don't need to write out CSS rules - I'm looking for the correct HTML syntax.)
+
+<div id=“apples” class=“fruit”>
+
+</div>
+
+8. In the space below, write the correct CSS code to target a div with a class of
+fruit in a stylesheet. Make the color of the text black (#000000).
+
+.fruit {
+color: #000000
+}
+
+9. What tag would we use to include an image on an HTML page? Just give me the
+name of the tag, you don't have to write out all the code.
+
+<img>
+
+10. What is the main difference between a serif and a sans-serif font?
+
+The edges of the letters. The edges of serif letters include decoration while the edges of sans-serif's letters have no decoration. 
+
+
+11. Which of the following is a hexadecimal code? To answer, delete the options
+that are not a hexadecimal code.
+#FFCC33
+
+12. What's the difference between margin and padding?
+
+Margin is space outside of the border and padding is space between the content and the border.
+
+13. Using shorthand CSS code, specify 10px for the top and bottom margins, 20px for
+the left margin, and 30px for the right margin for this div:
+
+div { 
+margin: 10px 30px 10px 20px;
+}
+
+14. Name two graphic design principles.
+
+proximity and repetition
+
+15. Comment out the sentence below using an HTML comment.
+
+Please comment me out using an HTML comment.
+
+<!--Please comment me out using an HTML comment.-->

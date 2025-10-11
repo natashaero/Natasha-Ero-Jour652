@@ -1,0 +1,47 @@
+
+/* Don't forget the semi-colon! */
+
+
+p{
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 12px;
+}
+
+h1 {
+    font-family: "Times New Roman", Georgia, serif;
+    font-size: 3em;
+}
+
+h2 {
+    font-family: "Times New Roman", Garamond, serif;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.image-credit {
+        font-size: 12px;
+        color: gray;
+        font-style: italic;
+}
+
+#content {
+    width: 950px;
+    margin: 0 auto;
+}
+
+#byline {
+    color: black;
+    font-style: oblique;
+}
+
+blockquote {
+    padding-left: 40px;
+    color: #111184;
+    font: 40px Garamond, Bodoni, serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
