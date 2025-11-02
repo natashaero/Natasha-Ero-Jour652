@@ -9,3 +9,48 @@
 img {
     width: 100%;
 }
+
+blockquote {
+    padding-left: 20px;
+    color: #097969;
+    font: 40px Georgia, Bodoni, serif;
+    font-style: oblique;
+    border-left: 4px solid; 
+    border-width: 10px;
+    margin-left: 42px;
+   
+}
+
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+}
+
+h3 {
+    color:#097969;
+    font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 16x;
+    color: #097969;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.image-credit {
+        font-size: 12px;
+        color: gray;
+        font-style: italic;
+}
+
+footer{
+    margin: 0 auto;
+    width: 1000px;
+    text-align: center;
+    background-color: #097969;
+    color: white;
+    padding: 2px;
+    padding-top: 20px;
+    
+}
