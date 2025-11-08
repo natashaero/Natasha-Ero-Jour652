@@ -12,6 +12,10 @@
     font-family: Georgia, Tahoma;
 }
 
+h2 {
+    font-weight: bold;
+}
+
 p {
     font-size: 1em;
     font-family: Georgia;
@@ -20,6 +24,12 @@ p {
 
 #footer {
     text-align: center;
+    margin: 0 auto;
+    width: 1000px;
+    background-color: black;
+    color: white;
+    padding: 2px;
+    padding-top: 20px;
 }
 
 blockquote {
@@ -30,5 +40,6 @@ blockquote {
 }
 
 img {
+    height: 50%;
     width: 100%;
 }
