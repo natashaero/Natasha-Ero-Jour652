@@ -6,6 +6,15 @@ h1 {
     color: black;
 }
 
+h2 {
+    font-size:medium;
+    font-weight:bold;
+}
+
+#subheading h2 {
+    font-size:2em;
+}
+
     #content {
     margin: 0 auto;
     width: 900px;
