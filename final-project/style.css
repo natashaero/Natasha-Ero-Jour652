@@ -1,0 +1,67 @@
+
+h1 {
+    font-family: "Times New Roman", "Open Sans", sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: black;
+}
+
+    #content {
+    margin: 0 auto;
+    width: 900px;
+    }
+
+    img {
+        width:100%;
+        height: auto;
+    }
+
+.navbar {
+    height: 64px;
+    display: flex;
+    background-color: #ffbd59;
+    color: white;
+}
+
+.active {
+    color: white;
+}
+
+.image-credit {
+      font-size: 12px;
+        color: dimgray;
+        font-style: italic;
+}
+
+                    
+
+
+blockquote {
+    font: 30px "Times New Roman", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: orangered;
+    display: block;
+    padding-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    margin-right: 34px;display:
+}
+
+    
+    #footer {
+        
+        left: 0;
+        bottom: 0;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 2px;
+    padding-top: 20px;
+    }
+
+#grad {
+    background-image: linear-gradient(to bottom, #8c52ff, #ff914d)
+}
